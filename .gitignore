@@ -1,0 +1,52 @@
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# PyCharm
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+logs/
+*.log
+*.db
+*.sqlite
+
+# Airflow-specific
+airflow.db
+airflow-webserver.pid
+webserver_config.py
+
+# Docker
+.dockerignore
+
+# Local config overrides
+.env
+.env.local
+secrets.yaml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# uv cache (optional — safe to ignore)
+# ~/.cache/uv is global, but project-local cache:
+# (usually not needed in .gitignore unless you have ./uv-cache/)
