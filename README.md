@@ -13,4 +13,4 @@ docker exec -it airflow_lab_etl-airflow-scheduler-1 bash
 
 
 
-
+![airflow_logs.png](../../Desktop/airflow_logs.png)
