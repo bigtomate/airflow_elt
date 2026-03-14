@@ -12,3 +12,5 @@ docker exec -it airflow_lab_etl-airflow-scheduler-1 bash
 
 
 
+
+
