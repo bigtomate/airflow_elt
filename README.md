@@ -12,5 +12,5 @@ docker exec -it airflow_lab_etl-airflow-scheduler-1 bash
 
 
 
+<img width="1448" height="945" alt="airflow_logs" src="https://github.com/user-attachments/assets/bb9b6de9-6f3b-4b26-927b-b921906ce5a3" />
 
-![airflow_logs.png](../../Desktop/airflow_logs.png)
