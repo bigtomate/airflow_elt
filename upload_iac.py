@@ -14,7 +14,7 @@ s3 = boto3.client(
 bucket = os.getenv('S3_BUCKET')
 timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
 unique_id = str(uuid.uuid4())[:8]
-key = f"uploads/test-trigger_1.csv"
+key = f"uploads/test-trigger_{timestamp}_{unique_id}.csv"
 
 s3.put_object(
     Bucket=bucket,
